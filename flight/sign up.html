@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="lab1.css">
+    <link rel="stylesheet" type="text/css" href="mini_styles.css">
+    <title>sign up</title>
+</head>
+<style>
+    body{
+    font-family: 'Montserrat', sans-serif;
+    /* background: url(mario-gogh-VBLHICVh-lI-unsplash.jpg) no-repeat center center fixed;  */
+    background: url(nicole-geri-gMJ3tFOLvnA-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    margin-top: 5%;
+    margin-right: 0%;
+    padding: 12px 20px;
+    border:5px 10px;
+    height: 250px;
+    width: 500px;
+    border-style: solid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-width: 0;
+}
+
+.contain{
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 32%;
+    padding: 12px 20px;
+    border:5px 10px;
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-width: 0;
+}
+
+/*#un,#pd{
+    border-top-width:0 ;
+    border-left-width:0;
+    border-right-width: 0;
+}*/
+#un{
+    margin-top: 1%;
+    width:250px;
+    height: 2.5em;
+    border-style: hidden;
+    background-color: rgba(255, 255, 255, 0.336);
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    color: snow;
+}
+
+#pd{
+    width:250px;
+    height: 2.5em;
+    border-style:hidden;
+    background-color: rgba(255, 255, 255, 0.336);
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    color:snow;
+}
+
+#un:hover,#pd:hover{
+    outline: none;
+}
+::placeholder{
+    color:snow;
+}
+
+button{
+    width:250px;
+    height: 2.5em;
+    border-style:hidden;
+    background-color: rgba(255, 255, 255, 0.336);
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #F8E2CF;
+    border-color: #F8E2CF; 
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F5C6AA;
+    border-color:#F5C6AA;
+    border-width: 50px;
+}
+
+h1{
+    color:#F5C6AA;
+    font-weight: bold ;
+}
+
+.head{
+    text-align: left;
+    text-transform: uppercase;
+    /*color: #ED8E7C;*/
+    color: #EDEDED;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    color: #F5C6AA;
+}
+
+.sign{
+    width:150px;
+    margin-left: 10%;
+    /*background-color: #F05F44;
+    border-color: #F05F44;*/
+    margin-left: 16%;
+}
+.or{
+    margin-top: 5%;
+    /* margin-left: 21%; */
+    margin-left: -53%;
+    color: #EDEDED;
+}
+.sign:hover{
+    /*background-color: #ee4b08;
+    border-color: #ee4b08;*/
+    border-width: 4px;
+}
+
+.push_down{
+    margin-left: 35px;
+}
+
+.pushit{
+    margin-top: 4%;
+    margin-left: 32%;
+}
+</style>
+<nav style="background-color: #012443;font-size: 1.9em;font-weight: bolder;" class="zone blue sticky">
+    <ul class="main-nav">
+    <li class="home"><a href="mini_home.html">Home</a></li>
+    <li class="serv"><a href="services.html">Services</a></li>
+    <li class="log"><a href="lab1.html">Log in</a></li>
+    <img src="travelling.png" style="width: 30px;height: 30px; margin-left:2%">
+  </ul>
+</nav>
+<body style="padding-top:2%;font-family: 'Montserrat', sans-serif;">
+    <!-- <h1 class="head"><strong>THE BIGGEST STARTUP OF THE YEAR</strong></h1> -->
+    <div class="contain">
+        <h1 style="color: #F5C6AA;">REGISTER</h1>
+        <form>
+            <input type="text" id="un" name="firstname" placeholder="First name" aria-label="first name"><br><br>
+            <input type="text" id="un" name="last name" placeholder="Last name" aria-label="Last name"><br><br>
+            <input type="email" id="un" name="mail" placeholder="Email Id" aria-label="Email Id"><br><br>
+            <input type="text" id="un" name="username" placeholder=" Set Username" aria-label="Set username"><br><br>
+            <input type="password" id="pd" name="password" placeholder="Set Password" aria-label="Set password" required><br><br>
+            <input type="password" id="un" name="cpassword" placeholder="Confirm Password" aria-label="Confirm Password" required><br><br>
+            <button type="submit" id="signin">Sign up</button> 
+        </form>
+    </div>
+</div>
+<footer style="margin-top: 2%;">
+    <div class="instagram" >
+    <img  class="go"  src="instagram.png" style="width:30px; height: 30px;"><span>anonymous</span> 
+    <img src="twitter.png" style="width:30px; height: 30px;"><span>anonymous</span>
+    <img src="gmail.png" style="width:30px; height: 30px;"><span>anonymous@gmail.com</span>
+    <img  src="whatsapp.png" style="width:30px; height: 30px;"><span>9876456789</span>
+    </div>
+    <p style="margin-left:42%;margin-top: 2%;font-size: large;">Copyright 2021
+    </p>
+  </footer>
+</body>
+</html>
